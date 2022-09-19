@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-image: url("./background.jpg");
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: alegreya;
+}
+
+.date{
+    display: flex;
+    margin-bottom: 4rem;
+    font-weight: normal;
+    font-size: 4rem;
+}
+
+.time{
+    display: flex;
+}
+.space{
+    font-size: 5rem;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    margin: 0 2rem;
+    line-height: 1;
+}
+.el{
+    text-align: center;
+}
+el span{
+    font-size: 1.5rem;
+    
+}
